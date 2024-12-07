@@ -37,4 +37,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Sincronizar archivos (Subir archivos)
-        run: aws s3 sync public s3://demodogo-bucket-dl --delete
+        run: aws s3 sync public s3://demodogo-devops-dl --delete
